@@ -8,25 +8,45 @@
 // let n3 =50;
 // array
 
-let arr = [10,20,50,"Ajit","mohit"];
-console.log(typeof arr);
+// let arr = [10,20,50,"Ajit","mohit"];
+// console.log(typeof arr);
 
-// Object 
+// // Object 
 
-let obj ={
-    user_name : "Ajit",
-    account_number : 3222323,
-    balance: 420
+// let obj ={
+//     user_name : "Ajit",
+//     account_number : 3222323,
+//     balance: 420
 
-}
- console.log(obj);
- console.log(typeof obj)
+// }
+//  console.log(obj);
+//  console.log(typeof obj)
 
-// function -- function ko bhi hum kisi variable ke ander store kr sakte hai ..
+// // function -- function ko bhi hum kisi variable ke ander store kr sakte hai ..
 
 
-let fun = function(){
-    console.log("Hello Ajit ji")
-}
+// let fun = function(){
+//     console.log("Hello Ajit ji")
+//     return 12;
+// }
 
-fun();
+// //fun();
+// //console.log(typeof fun)
+// console.log( fun());
+
+// Type conversion
+
+let account_balance = "100";
+let num = Number(account_balance);
+
+console.log(num)
+
+console.log(typeof account_balance);
+console.log(typeof num)
+
+// Boolen convert to number
+let x = true;
+console.log(Number(x));
+
+let y = false;
+console.log(Number(y));
