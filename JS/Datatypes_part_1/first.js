@@ -30,3 +30,7 @@ let bal= null;
 console.log(typeof bal);
 
 // bigint
+
+
+console.log(Number.MAX_SAFE_INTEGER)
+console.log(Number.MIN_SAFE_INTEGER)
