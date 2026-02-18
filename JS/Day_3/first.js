@@ -66,3 +66,8 @@ console.log(Number(x1));
 // undefined
 let x2;
 console.log(Number(x2))
+
+// String ke andar convert
+let ab =20;
+console.log(String(ab));
+
