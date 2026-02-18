@@ -97,15 +97,26 @@ console.log(20%3);
 // console.log(sum)
 
 // pre increment 
-let sum =20;
-++sum
-console.log(sum)
+// let sum =20;
+// ++sum
+// console.log(sum)
 
 // let sum1 =20;
 // sum1--
 // console.log(sum1)
 
 // pre decrement 
-let sum1 =20;
---sum1
-console.log(sum1)
+// let sum1 =20;
+// --sum1
+// console.log(sum1)
+
+// Assignment Operator
+
+let x = 20;
+x+=10;
+// x = x+10;
+console.log(x);
+
+// x= x-10;
+x-=10;
+console.log(x)
