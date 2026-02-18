@@ -54,4 +54,15 @@ console.log(Number(y));
 console.log(typeof y)
 
 let account = "100xs";
+let bal = "200s"
 console.log(Number(account)); 
+console.log(Number(bal)) 
+
+// null
+
+let x1 = null;
+console.log(Number(x1));
+
+// undefined
+let x2;
+console.log(Number(x2))
