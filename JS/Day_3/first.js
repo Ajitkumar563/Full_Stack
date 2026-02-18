@@ -69,5 +69,16 @@ console.log(Number(x2))
 
 // String ke andar convert
 let ab =20;
-console.log(String(ab));
+console.log(typeof String(ab));
 
+
+let ax = false;
+console.log(typeof false)
+console.log(typeof String(ax))
+
+// Boolean 
+let abc =  "asjdjhfbhfbhf23"
+console.log(Boolean(abc));
+
+let abc1 =  ""
+console.log(Boolean(abc1));
