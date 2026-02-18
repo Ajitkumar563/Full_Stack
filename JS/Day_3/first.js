@@ -7,5 +7,5 @@
 // let n2 =20;
 // let n3 =50;
 
-let arr = [10,20,50];
-console.log(arr);
+let arr = [10,20,50,"Ajit","mohit"];
+console.log(typeof arr);
