@@ -21,3 +21,12 @@ let obj ={
 }
  console.log(obj);
  console.log(typeof obj)
+
+// function -- function ko bhi hum kisi variable ke ander store kr sakte hai ..
+
+
+let fun = function(){
+    console.log("Hello Ajit ji")
+}
+
+fun();
