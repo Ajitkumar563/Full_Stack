@@ -36,17 +36,22 @@
 
 // Type conversion
 
-let account_balance = "100";
-let num = Number(account_balance);
+let account_balance = "100"; 
+let num = Number(account_balance); 
 
 console.log(num)
 
-console.log(typeof account_balance);
+console.log(typeof account_balance); 
 console.log(typeof num)
 
 // Boolen convert to number
 let x = true;
-console.log(Number(x));
+console.log(Number(x)); 
+console.log(typeof x); 
 
 let y = false;
-console.log(Number(y));
+console.log(Number(y)); 
+console.log(typeof y)
+
+let account = "100xs";
+console.log(Number(account)); 
