@@ -106,3 +106,8 @@ console.log(11|14);
 
 //XOR operator
 console.log(5^7);
+
+console.log(5<<3);
+// 5 multiply by 2 power 3 // left shift
+// 101.0000000000
+// 101000.000000
