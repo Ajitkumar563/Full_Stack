@@ -99,4 +99,7 @@ console.log(age>10||money>200);
 //Not operator
 console.log(!(age>10));
 
-
+// Bitwise operator
+console.log(4&5);
+console.log(11&14);
+console.log(11|14);
