@@ -59,9 +59,30 @@
 
 // console.log(null==undefined);
 // console.log(null===undefined);
+// null can only be equivalent to undefined ==
 
-console.log(null==0);
-console.log(null<0);
-console.log(null>0);
-console.log(null<=0);
-console.log(null>=0);
+// null comparision
+// console.log(null==0);
+// console.log(null<0);
+// console.log(null>0);
+// console.log(null<=0);
+// console.log(null>=0);
+
+// undefined comparision
+// console.log(undefined==0);
+// console.log(undefined<0);
+// console.log(undefined>0);
+// console.log(undefined<=0);
+// console.log(undefined>=0);
+ 
+console.log(NaN==NaN);
+let str3 = "rohit";
+let str4 = "Ajit"
+
+console.log(Number(str3)==Number(str4));
+
+let abc1= 123;
+let abc2= "123";
+let abc3= 123;
+
+console.log(abc1==abc2==abc3);
