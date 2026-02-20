@@ -36,9 +36,9 @@ console.log(A==B);
 
 let num = 10;
 let str = "20";
-console.log(num==str)
+console.log(num==str);
 // Type conversion hoga string to number
 
 let a1 = 10;
 let str1 = "30";
-console.log(a1<str1)
+console.log(a1<str1);
