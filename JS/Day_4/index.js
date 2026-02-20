@@ -90,4 +90,13 @@
 
 let age =18;
 let money = 4;
+// And operator
 console.log(age<18&&money>200);
+
+//OR_operator
+console.log(age>10||money>200);
+
+//Not operator
+console.log(!(age>10));
+
+
