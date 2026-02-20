@@ -40,5 +40,16 @@ console.log(num==str);
 // Type conversion hoga string to number
 
 let a1 = 10;
-let str1 = "30";
+let str1 = "10";
 console.log(a1<str1);
+
+// === type check, then comapare the value
+console.log(a1===str1)
+
+// let a2 = 30;
+// let a3 = 30;
+// console.log(a2===a3)
+
+let a2 = 30;
+let a3 = 40;
+console.log(a2===a3)
