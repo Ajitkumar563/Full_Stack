@@ -87,3 +87,7 @@
 // console.log(abc1==abc2==abc3);
 
 //console.log(undefined!=null);
+
+let age =18;
+let money = 4;
+console.log(age<18&&money>200);
