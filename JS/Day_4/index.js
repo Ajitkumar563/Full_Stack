@@ -111,3 +111,7 @@ console.log(5<<3);
 // 5 multiply by 2 power 3 // left shift
 // 101.0000000000
 // 101000.000000
+
+console.log(20>>2);
+// right shift, 20 divided by 2 power 2
+// 10100.000
