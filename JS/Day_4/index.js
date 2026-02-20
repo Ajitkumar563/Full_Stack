@@ -10,3 +10,6 @@ let B= 4;
 console.log(A==B);
 
 
+let A1 =4;
+let B1= 4;
+console.log(A1>B1);
