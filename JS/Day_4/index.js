@@ -103,3 +103,6 @@ console.log(!(age>10));
 console.log(4&5);
 console.log(11&14);
 console.log(11|14);
+
+//XOR operator
+console.log(5^7);
