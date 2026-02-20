@@ -57,5 +57,11 @@
 // null == undefined // true
 // null === undefined //  false
 
-console.log(null==undefined);
-console.log(null===undefined);
+// console.log(null==undefined);
+// console.log(null===undefined);
+
+console.log(null==0);
+console.log(null<0);
+console.log(null>0);
+console.log(null<=0);
+console.log(null>=0)
