@@ -30,7 +30,11 @@ let str3 = 'Aur bhai kya haal chaal';
 
 let price =50
 
-console.log(`price of the tomato is ${price}`);
+console.log(`price of the tomato is ${price},get is asap`);
 console.log(str1,str2,str3);
 
-
+// String concatenation
+let s1= "hello";
+let s2 = "Coder Army";
+let s3 = s1 + s2
+console.log(s3)
