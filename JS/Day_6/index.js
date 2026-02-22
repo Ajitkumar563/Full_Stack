@@ -73,3 +73,4 @@ console.log(hero.includes("Ajit"))
 
 let newstring = "helloDon";
 console.log(newstring.slice(0,4))
+// slice can take -ive index also
