@@ -64,3 +64,8 @@ console.log(special.toUpperCase());
 let strtemp =special.toUpperCase();
 console.log(strtemp);
 console.log(special);
+
+let hero ="hello Ajit";
+console.log(hero.indexOf("Ajit"));
+console.log(hero.lastIndexOf("hello"));
+console.log(hero.indexOf("ajit"));
