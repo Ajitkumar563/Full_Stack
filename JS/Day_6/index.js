@@ -55,3 +55,12 @@ console.log(Comm)
 let special = "rohit";
 console.log(special[4]);
 console.log(special.charAt(2))
+
+// to lowercase
+// to uppercase
+
+console.log(special.toLowerCase());
+console.log(special.toUpperCase());
+let strtemp =special.toUpperCase();
+console.log(strtemp);
+console.log(special);
