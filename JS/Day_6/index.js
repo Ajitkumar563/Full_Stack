@@ -79,5 +79,9 @@ console.log(newstring.substring(0,3));
 console.log(newstring.slice(-6,5));
 console.log(newstring.slice(-2,4));
 
-let str10 = "hello ji kaise ho"
+let str10 = "hello ji kaise ho ji"
 console.log(str10.replace("ji","Money"));
+console.log(str10.replaceAll("ji","Money"));
+
+let str11 = "money! honey! sunny! funny";
+console.log(str11.split("! "))
