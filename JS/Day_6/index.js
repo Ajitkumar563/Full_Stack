@@ -43,3 +43,5 @@ console.log(s2.length);
 
 // "hello Ajit"
 console.log('"hello Ajit"')
+// 'hello Ajit'
+console.log("'hello Ajit'")
