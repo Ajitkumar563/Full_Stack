@@ -45,3 +45,6 @@ console.log(s2.length);
 console.log('"hello Ajit"')
 // 'hello Ajit'
 console.log("'hello Ajit'")
+
+msg = "Ajit bhut acha ladka hai bht paise kmayega .\nwo start up se hi kamyega";
+console.log(msg)
