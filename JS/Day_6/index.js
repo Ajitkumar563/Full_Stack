@@ -40,3 +40,6 @@ let s3 = s1 + s2;
 console.log(s3.length); 
 console.log(s1.length); 
 console.log(s2.length); 
+
+// "hello Ajit"
+console.log('"hello Ajit"')
