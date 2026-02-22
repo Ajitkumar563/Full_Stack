@@ -89,3 +89,7 @@ console.log(str11.split("! "))
 let str12 = " hello ji ";
 console.log(str12);
 console.log(str12.trim().length);
+
+// 
+let laststring = new String("hello ajit ji");
+console.log(laststring);
