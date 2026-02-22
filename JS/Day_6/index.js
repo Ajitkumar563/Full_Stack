@@ -69,3 +69,4 @@ let hero ="hello Ajit";
 console.log(hero.indexOf("Ajit"));
 console.log(hero.lastIndexOf("hello"));
 console.log(hero.indexOf("ajit"));
+console.log(hero.includes("Ajit"))
