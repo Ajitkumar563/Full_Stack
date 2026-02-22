@@ -51,3 +51,7 @@ console.log(msg)
 
 Comm = "Ajit bhut acha ladka hai bht paise kmayega .\\nwo start up se hi kamyega";
 console.log(Comm)
+
+let special = "rohit";
+console.log(special[4]);
+console.log(special.charAt(2))
