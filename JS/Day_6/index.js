@@ -70,3 +70,6 @@ console.log(hero.indexOf("Ajit"));
 console.log(hero.lastIndexOf("hello"));
 console.log(hero.indexOf("ajit"));
 console.log(hero.includes("Ajit"))
+
+let newstring = "helloDon";
+console.log(newstring.slice(0,4))
