@@ -36,5 +36,7 @@ console.log(str1,str2,str3);
 // String concatenation
 let s1= "hello";
 let s2 = "Coder Army";
-let s3 = s1 + s2
-console.log(s3)
+let s3 = s1 + s2;
+console.log(s3.length); 
+console.log(s1.length); 
+console.log(s2.length); 
