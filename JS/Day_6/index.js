@@ -88,4 +88,4 @@ console.log(str11.split("! "))
 
 let str12 = " hello ji ";
 console.log(str12);
-console.log(str12.trim());
+console.log(str12.trim().length);
