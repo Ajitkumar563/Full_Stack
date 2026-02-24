@@ -9,3 +9,9 @@
 let num = 231.68;
 console.log(num.toFixed )
 console.log(num.toPrecision)
+
+//Math
+console.log(Math.E);
+console.log(Math.LN10);
+console.log(Math.PI);
+console.log(Math.LOG10E);
