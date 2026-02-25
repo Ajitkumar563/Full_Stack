@@ -19,3 +19,8 @@ arr.pop();
 arr.pop();
 console.log(arr);
 
+// unshift , add element at start
+arr.unshift(10);
+arr.unshift(30);
+console.log(arr);
+
