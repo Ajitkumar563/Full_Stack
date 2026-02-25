@@ -5,3 +5,6 @@
  // at is latest, negative index le leta hai
  console.log(arr.at(0));
 
+ const newarr = arr;
+ console.log(newarr==arr);
+
