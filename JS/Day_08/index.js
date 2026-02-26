@@ -38,7 +38,9 @@ console.log(arr);
 
 
 // splice 
-console.log(arr.splice(2,5));
+console.log(arr.splice(2,5)); // 
 console.log(arr);
+
+// splice(starting_index,total_element_delete,add value)
 
 
