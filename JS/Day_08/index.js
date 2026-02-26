@@ -51,6 +51,9 @@ const arr = [2,34,1,4,6,"Ajit",true,2];
 let arr1 =[2,35.6,5,7];
 let arr2 =[3,8,9];
 let arr4 =[45,56,32];
-let arr3 = arr1.concat(arr2,arr4);
-console.log(arr3[5]);
+// let arr3 = arr1.concat(arr2,arr4);
+// console.log(arr3[5]);
+
+arr1.push(arr2);
+console.log(arr1);
 
