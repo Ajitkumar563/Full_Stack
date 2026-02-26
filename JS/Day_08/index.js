@@ -47,3 +47,9 @@ console.log(arr);
 console.log(arr.toString());
 console.log(arr.join("*"));
 
+//concat
+let arr1 =[2,35.6,5,7];
+let arr2 =[3,8,9];
+let arr3 = arr1.concat(arr2);
+console.log(arr3);
+
