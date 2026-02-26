@@ -71,4 +71,8 @@ console.log(arr1[5][2]);
 let arr2d =[[1,7,9],[58,6,9],[98,76,54]];
 console.log(arr2d[0][2]);
 
+// flat ka use to convert into 1d array
+let newarr = arr2d.flat(Infinity);
+console.log(newarr);
+
 
