@@ -59,3 +59,12 @@ console.log(arr1);
 
 arr1.push(arr4);
 console.log(arr1);
+console.log(arr1[1]);
+console.log(arr1[3]);
+console.log(arr1[4]);
+console.log(arr1[5]);
+console.log(arr1[4][1]);
+console.log(arr1[4][2]);
+console.log(arr1[5][2]);
+
+
