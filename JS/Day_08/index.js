@@ -67,4 +67,8 @@ console.log(arr1[4][1]);
 console.log(arr1[4][2]);
 console.log(arr1[5][2]);
 
+// 2d array 
+let arr2d =[[1,7,9],[58,6,9],[98,76,54]];
+console.log(arr2d[0][2]);
+
 
