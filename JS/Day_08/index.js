@@ -33,24 +33,24 @@ const arr = [2,34,1,4,6,"Ajit",true,2];
 
 //slice
 // console.log(arr);
-console.log(arr.slice(2,5));
-console.log(arr);
+// console.log(arr.slice(2,5));
+// console.log(arr);
 
 
 // splice 
-console.log(arr.splice(2,5)); // 
-console.log(arr);
+// console.log(arr.splice(2,5)); // 
+// console.log(arr);
 
 // splice(starting_index,total_element_delete,add value)
-arr.splice(2,3,"money",90,30,70);
-console.log(arr);
-console.log(arr.toString());
-console.log(arr.join("*"));
+// arr.splice(2,3,"money",90,30,70);
+// console.log(arr);
+// console.log(arr.toString());
+// console.log(arr.join("*"));
 
 //concat
 let arr1 =[2,35.6,5,7];
 let arr2 =[3,8,9];
 let arr4 =[45,56,32];
 let arr3 = arr1.concat(arr2,arr4);
-console.log(arr3);
+console.log(arr3[5]);
 
