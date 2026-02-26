@@ -44,4 +44,6 @@ console.log(arr);
 // splice(starting_index,total_element_delete,add value)
 arr.splice(2,3,"money",90,30,70);
 console.log(arr);
+console.log(arr.toString());
+console.log(arr.join())
 
