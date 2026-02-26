@@ -26,7 +26,19 @@ const arr = [2,34,1,4,6,"Ajit",true,2];
 
 // //delete operation
 // delete arr[0];
+// console.log(arr);
+// console.log(arr.indexOf("true"));
+// console.log(arr.lastIndexOf(2));
+// console.log(arr.includes(10));
+
+//slice
+// console.log(arr);
+console.log(arr.slice(2,5));
 console.log(arr);
-console.log(arr.indexOf("true"));
-console.log(arr.lastIndexOf(2));
-console.log(arr.includes(10));
+
+
+// splice 
+console.log(arr.splice(2,5));
+console.log(arr);
+
+
