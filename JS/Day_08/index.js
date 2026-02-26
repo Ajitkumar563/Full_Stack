@@ -13,7 +13,7 @@ arr.push(30);
 arr.push(50);
 console.log(arr);
 
-//pop , pop the last element from array
+//pop , pop(dlt) the last element from array
 arr.pop();
 arr.pop();
 arr.pop();
