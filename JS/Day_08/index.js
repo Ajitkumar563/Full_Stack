@@ -24,3 +24,6 @@ arr.unshift(10);
 arr.unshift(30);
 console.log(arr);
 
+//delete operation
+delete arr[0];
+console.log(arr);
