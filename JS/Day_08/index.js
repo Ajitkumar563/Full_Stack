@@ -45,5 +45,5 @@ console.log(arr);
 arr.splice(2,3,"money",90,30,70);
 console.log(arr);
 console.log(arr.toString());
-console.log(arr.join())
+console.log(arr.join("*"));
 
