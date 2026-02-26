@@ -57,3 +57,5 @@ let arr4 =[45,56,32];
 arr1.push(arr2);
 console.log(arr1);
 
+arr1.push(arr4);
+console.log(arr1);
