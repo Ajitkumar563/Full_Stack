@@ -27,12 +27,20 @@
 // const date = new Date(2024,4,28);
 // console.log(date.toDateString());
 
-const d = new Date();
-d.setDate(20);
-d.setFullYear(2021);
-d.setMonth(3);
-console.log(d);
-console.log(typeof d);
-console.log(d.toString);
-console.log(d.toLocaleDateString);
+// const d = new Date();
+// d.setDate(20);
+// d.setFullYear(2021);
+// d.setMonth(3);
+// console.log(d);
+// console.log(typeof d);
+// console.log(d.toString);
+// console.log(d.toLocaleDateString);
+
+// Date calculation
+
+const date1 = new Date();
+const date2 = new Date("2025-04-21");
+
+console.log(date2-date1);
+
 
