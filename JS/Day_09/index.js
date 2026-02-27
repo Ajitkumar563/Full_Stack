@@ -52,13 +52,9 @@ const date2 = new Date("2020-07-14T00:00:00");
 const date = date2-date1;
 // 1000ko miliscond-mili-second--min--hour
 const days = Math.floor(date/(1000*60*60*24));
-console.log(days);
-const hour = Math.floor((ate/(1000*60*60))%24);
-const minute = Math.floor((ate/(1000*60*60))%60);
-const second = Math.floor((ate/(1000*60*60))%60);
+// console.log(days);
+const hour = Math.floor((date/(1000*60*60))%24);
+const minute = Math.floor((date/(1000*60*60))%60);
+const second = Math.floor((date/(1000*60*60))%60);
 
-console.log('Olympics CountDownTime: Days:${days} hour:${hour} minute:${minute} second;${second}');
-
-
-
-
+console.log(`lympics CountDownTime: Days:${days} hour:${hour} minute:${minute} second:${second}`);
