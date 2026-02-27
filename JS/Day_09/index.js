@@ -18,3 +18,6 @@ console.log(d.getFullYear());
 console.log(d.getMilliseconds());
 console.log(d.getMinutes());
 console.log(d.getTime());
+
+const now = Date.now();
+console.log(now);
