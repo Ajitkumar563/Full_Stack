@@ -47,7 +47,14 @@
 // Countdown Timer for olympics
 // Days , hour, minute, second
 const date1 = new Date();
-const date2 = new Date();
+const date2 = new Date("2020-07-14T00:00:00");
+
+const date = date2-date1;
+// 1000ko miliscond-mili-second--min--hour
+const days = Math.floor(date/(1000*60*60*24));
+console.log(days);
+const hour = Math.floor(date/(1000*60*60))%24
+console.log(hour);
 
 
 
