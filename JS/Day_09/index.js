@@ -15,3 +15,6 @@ console.log(d.getDay());
 
 console.log(d.getMonth());
 console.log(d.getFullYear());
+console.log(d.getMilliseconds());
+console.log(d.getMinutes());
+console.log(d.getTime());
