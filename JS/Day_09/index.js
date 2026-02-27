@@ -34,4 +34,5 @@ d.setMonth(3);
 console.log(d);
 console.log(typeof d);
 console.log(d.toString);
+console.log(d.toLocaleDateString);
 
