@@ -9,3 +9,6 @@ console.log(typeof d);
 
 const d1 = new Date(1000);
 console.log(d1)
+
+console.log(d.getDate());
+console.log(d.getDay());
