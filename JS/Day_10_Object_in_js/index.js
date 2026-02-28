@@ -1,6 +1,7 @@
 // how to create object
 
 const obj = {
+    0:20,
     name:"Ajit",
     account_balance:430,
     gender: "Male",
