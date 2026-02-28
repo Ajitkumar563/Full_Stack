@@ -22,3 +22,7 @@ console.log(obj["account_balance"]);
 console.log(obj['0']);
 console.log(obj[0]);
 console.log(obj[1]);
+//console.log(obj);
+
+const arr =[20,50, 70];
+console.log(arr[0]);
