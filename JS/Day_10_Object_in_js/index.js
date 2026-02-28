@@ -9,3 +9,5 @@ const obj = {
 
 console.log(obj);
 console.log(typeof obj);
+
+console.log(obj.name);
