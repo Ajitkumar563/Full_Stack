@@ -37,4 +37,8 @@ console.log(obj["null"]);
 delete obj.name;
 console.log(obj);
 
+//modify or quotes
+obj.name= "Ajit1";
+console.log(obj)
+
 
