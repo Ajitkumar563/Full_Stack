@@ -17,3 +17,4 @@ console.log(obj.age);
 
 console.log(obj["gender"]);
 console.log(obj["account_balance"]);
+console.log(obj['0']);
