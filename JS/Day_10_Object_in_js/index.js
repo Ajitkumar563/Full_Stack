@@ -33,4 +33,8 @@ console.log(arr[1],obj[1]);
 console.log(obj["undefined"]);
 console.log(obj["null"]);
 
+//delete
+delete obj.name;
+console.log(obj);
+
 
