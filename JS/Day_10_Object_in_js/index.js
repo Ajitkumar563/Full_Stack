@@ -26,3 +26,4 @@ console.log(obj[1]);
 
 const arr =[20,50, 70];
 console.log(arr[0]);
+console.log(arr[1],obj[1]);
