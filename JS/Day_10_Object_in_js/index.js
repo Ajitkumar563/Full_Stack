@@ -6,24 +6,31 @@ const obj = {
     name:"Ajit",
     account_balance:430,
     gender: "Male",
-    age: 30
+    age: 30,
+    undefined:40,
+    null:"mohan",
 }
 
-console.log(obj);
-console.log(typeof obj);
+// console.log(obj);
+// console.log(typeof obj);
 
-console.log(obj.name);
-console.log(obj.account_balance);
-console.log(obj.gender);
-console.log(obj.age);
+// console.log(obj.name);
+// console.log(obj.account_balance);
+// console.log(obj.gender);
+// console.log(obj.age);
 
-console.log(obj["gender"]);
-console.log(obj["account_balance"]);
-console.log(obj['0']);
-console.log(obj[0]);
-console.log(obj[1]);
+// console.log(obj["gender"]);
+// console.log(obj["account_balance"]);
+// console.log(obj['0']);
+// console.log(obj[0]);
+// console.log(obj[1]);
 //console.log(obj);
 
 const arr =[20,50, 70];
 console.log(arr[0]);
 console.log(arr[1],obj[1]);
+
+console.log(obj["undefined"]);
+console.log(obj["null"]);
+
+
