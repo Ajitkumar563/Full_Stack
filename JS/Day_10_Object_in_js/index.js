@@ -64,8 +64,14 @@ let obj ={
 
 };
 
+// keys
 const arr = Object.keys(obj);
 console.log(arr);
 
+//values
 const arr1 = Object.values(obj);
 console.log(arr1);
+
+//keys : values
+const arr2 = Object.entries(obj);
+console.log(arr2)
