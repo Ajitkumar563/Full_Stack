@@ -81,6 +81,6 @@ const obj1 ={a:1,b:2};
 const obj2 = {c:3,d:4};
 const obj4 = {e:5,f:6};
 
-const obj3 = Object.assign({},obj1,obj2);
+const obj3 = Object.assign({},obj1,obj2,obj4);
 // const obj3 = Object.assign({},obj1,obj2,obj4);
 console.log(obj3,obj1);  // obj1 has changed because not putting/assign target value
