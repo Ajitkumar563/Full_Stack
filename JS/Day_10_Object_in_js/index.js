@@ -75,3 +75,11 @@ console.log(arr1);
 //keys : values
 const arr2 = Object.entries(obj);
 console.log(arr2)
+
+//assign
+const obj1 ={a:1,b:2};
+const obj2 = {c:3,d:4};
+const obj4 = {e:5,f:6};
+
+const obj3 = Object.assign(obj1,obj2,obj4);
+console.log(obj3);
