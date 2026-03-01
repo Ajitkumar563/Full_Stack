@@ -43,10 +43,10 @@ console.log(obj)
 
 // third method 
 class people{
-    constructor(name, age, gender){
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+    constructor(na, ag, gen){
+        this.name = na;
+        this.age = ag;
+        this.gender = gen;
 
     }
 }
