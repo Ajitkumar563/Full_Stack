@@ -66,3 +66,6 @@ let obj ={
 
 const arr = Object.keys(obj);
 console.log(arr);
+
+const arr1 = Object.values(obj);
+console.log(arr1);
