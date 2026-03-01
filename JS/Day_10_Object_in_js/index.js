@@ -26,33 +26,34 @@ const obj = {
 // console.log(obj[1]);
 //console.log(obj);
 
-const arr =[20,50, 70];
-console.log(arr[0]);
-console.log(arr[1],obj[1]);
+// const arr =[20,50, 70];
+// console.log(arr[0]);
+// console.log(arr[1],obj[1]);
 
-console.log(obj["undefined"]);
-console.log(obj["null"]);
+// console.log(obj["undefined"]);
+// console.log(obj["null"]);
 
-//delete
-delete obj.name;
-console.log(obj);
+// //delete
+// delete obj.name;
+// console.log(obj);
 
-//modify or quotes
-obj.name= "Ajit1";
-console.log(obj)
+// //modify or quotes
+// obj.name= "Ajit1";
+// console.log(obj)
 
-// third method 
-class people{
-    constructor(na, ag, gen){
-        this.name = na;
-        this.age = ag;
-        this.gender = gen;
+// // third method 
+// class people{
+//     constructor(na, ag, gen){
+//         this.name = na;
+//         this.age = ag;
+//         this.gender = gen;
 
-    }
-}
-let per1 = new people("Ajit", 20, "Male");
-let per2 = new people("Aman",30, "Female")
-let per3 = new people("Ram", 40, "Male")
-console.log(per1, per2, per3);
+//     }
+// }
+// let per1 = new people("Ajit", 20, "Male");
+// let per2 = new people("Aman",30, "Female")
+// let per3 = new people("Ram", 40, "Male")
+// console.log(per1, per2, per3);
+
 
 
