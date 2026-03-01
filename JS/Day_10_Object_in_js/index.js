@@ -57,5 +57,12 @@
 
 
 let obj ={
-    name
-}
+    name : "Ajit",
+    age: 30,
+    account_balance : 420,
+    gender:"male",
+
+};
+
+const arr = Object.keys(obj);
+console.log(arr);
