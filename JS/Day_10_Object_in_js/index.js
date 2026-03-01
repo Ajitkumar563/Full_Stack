@@ -52,6 +52,7 @@ class people{
 }
 let per1 = new people("Ajit", 20, "Male");
 let per2 = new people("Aman",30, "Female")
-console.log(per1, per2);
+let per3 = new people("Ram", 40, "Male")
+console.log(per1, per2, per3);
 
 
