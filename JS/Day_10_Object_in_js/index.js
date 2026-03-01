@@ -86,5 +86,5 @@ const obj3 = Object.assign({},obj1,obj2,obj4);
 console.log(obj3,obj1);  // obj1 has changed because not putting/assign target value
 
 // console.log(obj1.a) 
-const obj5 = {...obj1,...obj2,...obj4};
+const obj5 = {...obj1,...obj2,...obj4};  //spread operator
 console.log(obj5);
