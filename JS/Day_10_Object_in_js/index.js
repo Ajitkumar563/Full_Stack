@@ -41,4 +41,16 @@ console.log(obj);
 obj.name= "Ajit1";
 console.log(obj)
 
+// third method 
+class people{
+    constructor(name, age, gender){
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+
+    }
+}
+let per1 = new people("Ajit", 20, "Male");
+console.log(per1);
+
 
