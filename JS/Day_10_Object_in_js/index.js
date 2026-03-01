@@ -1,15 +1,15 @@
 // how to create object
 
-const obj = {
-    0:20,
-    1:50,
-    name:"Ajit",
-    account_balance:430,
-    gender: "Male",
-    age: 30,
-    undefined:40,
-    null:"mohan",
-}
+// const obj = {
+//     0:20,
+//     1:50,
+//     name:"Ajit",
+//     account_balance:430,
+//     gender: "Male",
+//     age: 30,
+//     undefined:40,
+//     null:"mohan",
+// }
 
 // console.log(obj);
 // console.log(typeof obj);
@@ -56,4 +56,6 @@ const obj = {
 // console.log(per1, per2, per3);
 
 
-
+let obj ={
+    name
+}
