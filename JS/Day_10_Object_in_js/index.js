@@ -56,35 +56,35 @@
 // console.log(per1, per2, per3);
 
 
-let obj ={
-    name : "Ajit",
-    age: 30,
-    account_balance : 420,
-    gender:"male",
+// let obj ={
+//     name : "Ajit",
+//     age: 30,
+//     account_balance : 420,
+//     gender:"male",
 
-};
+// };
 
-// keys
-const arr = Object.keys(obj);
-console.log(arr);
+// // keys
+// const arr = Object.keys(obj);
+// console.log(arr);
 
-//values
-const arr1 = Object.values(obj);
-console.log(arr1);
+// //values
+// const arr1 = Object.values(obj);
+// console.log(arr1);
 
-//keys : values
-const arr2 = Object.entries(obj);
-console.log(arr2)
+// //keys : values
+// const arr2 = Object.entries(obj);
+// console.log(arr2)
 
-//assign
-const obj1 ={a:1,b:2};
-const obj2 = {c:3,d:4};
-const obj4 = {e:5,f:6};
+// //assign
+// const obj1 ={a:1,b:2};
+// const obj2 = {c:3,d:4};
+// const obj4 = {e:5,f:6};
 
-const obj3 = Object.assign({},obj1,obj2,obj4);
 // const obj3 = Object.assign({},obj1,obj2,obj4);
-console.log(obj3,obj1);  // obj1 has changed because not putting/assign target value
+// // const obj3 = Object.assign({},obj1,obj2,obj4);
+// console.log(obj3,obj1);  // obj1 has changed because not putting/assign target value
 
-// console.log(obj1.a) 
-const obj5 = {...obj1,...obj2,...obj4};  //spread operator
-console.log(obj5);
+// // console.log(obj1.a) 
+// const obj5 = {...obj1,...obj2,...obj4};  //spread operator
+// console.log(obj5);
