@@ -59,7 +59,7 @@
 // let obj ={
 //     name : "Ajit",
 //     age: 30,
-//     account_balance : 420,
+//     account_balance : 48820,
 //     gender:"male",
 
 // };
