@@ -24,4 +24,5 @@ const user ={
         city : "fbd"
     }
 }
+console.log(user.address)
 console.log(user.address.pincode);
