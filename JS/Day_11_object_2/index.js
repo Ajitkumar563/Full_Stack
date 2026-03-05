@@ -44,3 +44,6 @@ let obj = {
 
 const {name, balance} = obj;
 console.log(name, balance);
+
+const{name : full_name ,balance: amount, age:Umar} = obj;
+console.log(full_name, amount, Umar);
