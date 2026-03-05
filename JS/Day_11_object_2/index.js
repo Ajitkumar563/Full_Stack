@@ -40,10 +40,15 @@ let obj = {
     money : 456,
     balance : 34,
     age : 23,
+    adhar : "hyht445",
 };
 
-const {name, balance} = obj;
-console.log(name, balance);
+// const {name, balance, age} = obj;
+// console.log(name, balance);
 
-const{name : full_name ,balance: amount, age:Umar} = obj;
-console.log(full_name, amount, Umar);
+// const{name : full_name ,balance: amount, age:Umar} = obj;
+// console.log(full_name, amount, Umar);
+
+const{name, age,...obj1} = obj;
+console.log(name,age);
+console.log(obj1);
