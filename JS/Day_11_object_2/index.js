@@ -5,3 +5,6 @@ let obj1 = {
 
 let obj2 =obj1;
 // shallow copy 
+
+obj2.a =10;
+console.log(obj2,obj1);
