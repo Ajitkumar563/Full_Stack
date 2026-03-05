@@ -35,13 +35,13 @@
 // console.log(user.address);
 
 // Destructuring of an object
-let obj = {
-    name : "Ajit",
-    money : 456,
-    balance : 34,
-    age : 23,
-    adhar : "hyht445",
-};
+// let obj = {
+//     name : "Ajit",
+//     money : 456,
+//     balance : 34,
+//     age : 23,
+//     adhar : "hyht445",
+// };
 
 // const {name, balance, age} = obj;
 // console.log(name, balance);
