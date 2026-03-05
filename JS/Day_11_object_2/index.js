@@ -16,20 +16,20 @@
 // console.log(obj3, obj1);
 
 //  Nested object
-const user ={
-    name:"Ajit",
-    Balance : 420,
-    address : {
-        pincode:12334,
-        city : "fbd"
-    }
-}
+// const user ={
+//     name:"Ajit",
+//     Balance : 420,
+//     address : {
+//         pincode:12334,
+//         city : "fbd"
+//     }
+// }
 // console.log(user.address)
 // console.log(user.address.pincode);
 
 // structureclone --- 
-const user2 = Object.assign({},user);
-console.log(user2);
-user2.address.pincode = 535355;
-console.log(user.address.pincode);
-console.log(user.address);
+// const user2 = Object.assign({},user);
+// console.log(user2);
+// user2.address.pincode = 535355;
+// console.log(user.address.pincode);
+// console.log(user.address);
