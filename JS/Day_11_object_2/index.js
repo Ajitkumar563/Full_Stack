@@ -56,4 +56,15 @@
 const arr = [3,2,1,5,10];
 // const [first,second] = arr;
 // const [first,second, ,third] = arr;
-console.log(first,second, third);
+// console.log(first,second, third);
+
+const obj ={
+    name:"Ajit",
+    Balance : 420,
+    address : {
+        pincode:12334,
+        city : "fbd"
+    }
+};
+const {address:{pincode,city}} = obj;
+console.log(pincode, city);
