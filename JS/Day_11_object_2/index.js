@@ -33,3 +33,14 @@
 // user2.address.pincode = 535355;
 // console.log(user.address.pincode);
 // console.log(user.address);
+
+// Destructuring of an object
+let obj = {
+    name : "Ajit",
+    money : 456,
+    balance : 34,
+    age : 23,
+};
+
+const {name, balance} = obj;
+console.log(name, balance);
