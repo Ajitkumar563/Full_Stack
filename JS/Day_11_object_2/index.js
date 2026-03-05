@@ -28,4 +28,8 @@ const user ={
 // console.log(user.address.pincode);
 
 // structureclone --- 
-
+const user2 = Object.assign({},user);
+console.log(user2);
+user2.address.pincode = 535355;
+console.log(user.address.pincode);
+console.log(user.address);
