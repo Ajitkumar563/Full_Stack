@@ -24,5 +24,8 @@ const user ={
         city : "fbd"
     }
 }
-console.log(user.address)
-console.log(user.address.pincode);
+// console.log(user.address)
+// console.log(user.address.pincode);
+
+// structureclone --- 
+
