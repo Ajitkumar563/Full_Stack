@@ -54,5 +54,5 @@
 // console.log(obj1);
 
 const arr = [3,2,1,5,10];
-const [first,second, third] =arr;
-console.log(first,second,third);
+const [first,second, five] = arr;
+console.log(first,second, five);
