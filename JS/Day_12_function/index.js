@@ -12,10 +12,17 @@
 
 
 // parameter
-function sum(num1, num2){
-    console.log(num1+num2)
+// function sum(num1, num2){
+//     console.log(num1+num2)
+
+// };
+
+// // function call argument
+// sum(4,5);
+
+function multiply(num1, num2){
+    console.log(num1*num2)
 
 };
 
-// function call argument
-sum(4,5);
+multiply(6,8);
