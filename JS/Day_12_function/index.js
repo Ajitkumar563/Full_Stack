@@ -27,4 +27,5 @@ function multiply(num1, num2){
 
 };
 
-console.log(multiply(6,8));
+let result= multiply(5,7);
+console.log(result);
