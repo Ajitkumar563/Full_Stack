@@ -8,4 +8,4 @@ function greet(){
     console.log("main bdiya hu")
 }
 
-greet():
+greet();
