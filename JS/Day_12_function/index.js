@@ -17,5 +17,5 @@ function sum(num1, num2){
 
 };
 
-// 
+// function call argument
 sum(4,5);
