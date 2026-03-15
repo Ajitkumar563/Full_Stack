@@ -69,3 +69,10 @@
 // spread operator 
 // let arr =[45,67,6,5];
 // let arr2 =[...arr];
+
+let obj = {
+    name:"Ajit",
+    age: 30,
+    amount:420,
+
+}
