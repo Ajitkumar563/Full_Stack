@@ -57,12 +57,12 @@
 
 
 // rest operator handle multiple operator ..
-const sum = function(...number){
-    // for loop sum nikal sakte hai 
-    console.log(number);
+// const sum = function(...number){
+//     // for loop sum nikal sakte hai 
+//     console.log(number);
      
-} 
+// } 
 
-sum(2,3,4);
-sum(7,5,6,8,);
+// sum(2,3,4);
+// sum(7,5,6,8,);
 
