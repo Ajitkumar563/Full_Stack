@@ -33,8 +33,8 @@
 
 // Arow function 
 
-const sum = (number1, number2)=>{
-    return number1+number2;
-}
+// const sum = (number1, number2)=>{
+//     return number1+number2;
+// }
 
-console.log(sum(3,4));
+// console.log(sum(3,4));
