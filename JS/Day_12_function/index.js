@@ -84,8 +84,8 @@ let obj = {
 
 // fun(obj)
 
-function fun({name, amount}){
-    console.log(name, amount);
-}
+// function fun({name, amount}){
+//     console.log(name, amount);
+// }
 
-fun(obj);
+// fun(obj);
