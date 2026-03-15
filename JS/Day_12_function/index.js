@@ -52,5 +52,5 @@
 // const cube =(number)=> number*number*number;
 // console.log(cube(5));
 
-const cube = number=> number*number*number;
-console.log(cube(5));
+// const cube = number=> number*number*number;
+// console.log(cube(5));
