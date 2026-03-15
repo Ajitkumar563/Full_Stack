@@ -64,4 +64,5 @@ const sum = function(...number){
 } 
 
 sum(2,3,4);
+sum(7,5,6,8,);
 
