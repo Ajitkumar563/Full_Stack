@@ -67,5 +67,5 @@
 // sum(7,5,6,8,);
 
 // spread operator 
-let arr =[45,67,6,5];
-let arr2 =[...arr];
+// let arr =[45,67,6,5];
+// let arr2 =[...arr];
