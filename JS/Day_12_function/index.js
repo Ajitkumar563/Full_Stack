@@ -77,9 +77,9 @@ let obj = {
 
 }
 
-function fun(obj1){
-    console.log(obj1.name , obj1.amount)
+// function fun(obj1){
+//     console.log(obj1.name , obj1.amount)
 
-}
+// }
 
-fun(obj)
+// fun(obj)
