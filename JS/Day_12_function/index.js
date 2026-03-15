@@ -58,6 +58,7 @@
 
 // rest operator handle multiple operator ..
 const sum = function(...number){
+    // for loop sum nikal sakte hai 
     console.log(number);
      
 } 
