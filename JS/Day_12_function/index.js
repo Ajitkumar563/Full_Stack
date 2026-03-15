@@ -76,3 +76,10 @@ let obj = {
     amount:420,
 
 }
+
+function fun(obj1){
+    console.log(obj1.name , obj1.amount)
+
+}
+
+fun(obj)
