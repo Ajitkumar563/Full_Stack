@@ -55,7 +55,12 @@
 // const cube = number=> number*number*number;
 // console.log(cube(5));
 
-const sum = function(){
 
+// rest operator handle multiple operator ..
+const sum = function(...number){
+    console.log(number);
+     
 } 
+
+sum(2,3,4);
 
