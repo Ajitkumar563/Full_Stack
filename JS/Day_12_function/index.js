@@ -83,3 +83,9 @@ let obj = {
 // }
 
 // fun(obj)
+
+function fun({name, amount}){
+    console.log(name, amount);
+}
+
+fun(obj);
