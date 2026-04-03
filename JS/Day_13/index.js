@@ -25,3 +25,8 @@
 // {
 //     console.log("Young");
 // }    
+
+// Multiple condition switch
+
+
+
