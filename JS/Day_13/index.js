@@ -93,3 +93,5 @@
 
 //  console.log("hello ajit")
 // }
+
+// sum of first n number
