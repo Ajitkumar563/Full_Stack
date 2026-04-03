@@ -57,6 +57,7 @@
 
 // }
 
+let day ="0"
 switch (day)
 {
     case 0:
