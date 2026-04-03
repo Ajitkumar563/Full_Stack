@@ -1,5 +1,5 @@
 // if -else
-let age =30;
+// let age =30;
 
 // if(age>=18)
 // {
@@ -9,3 +9,19 @@ let age =30;
 // {
 //     console.log("Not Eligible for vote");
 // }    
+
+// if else if else
+let age = 49;
+if(age<=18);
+{
+    console.log("kid");
+
+}
+else if(age>45);
+{
+    console.log("old");
+}
+else
+{
+    console.log("Young");
+}    
