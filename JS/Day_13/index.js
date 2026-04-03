@@ -28,5 +28,6 @@
 
 // Multiple condition switch
 
+// console.log(new Date().getDay());
 
 
