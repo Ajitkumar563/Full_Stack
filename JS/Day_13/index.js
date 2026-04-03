@@ -11,8 +11,9 @@
 // }    
 
 // if else if else
+
 let age = 49;
-if(age<18);
+if(age<18)
 {
     console.log("kid");
 }
