@@ -12,16 +12,16 @@
 
 // if else if else
 
-let age = 49;
-if(age<18)
-{
-    console.log("kid");
-}
-else if(age>45)
-{
-    console.log("old");
-}
-else
-{
-    console.log("Young");
-}    
+// let age = 49;
+// if(age<18)
+// {
+//     console.log("kid");
+// }
+// else if(age>45)
+// {
+//     console.log("old");
+// }
+// else
+// {
+//     console.log("Young");
+// }    
