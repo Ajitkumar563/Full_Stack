@@ -3,9 +3,9 @@ let age =30;
 
 if(age>=18)
 {
-    console.log("Eligible for vote")
+    console.log("Eligible for vote");
 }    
 else
 {
-    console.log("Not Eligible for vote")
+    console.log("Not Eligible for vote");
 }    
