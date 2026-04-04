@@ -13,8 +13,8 @@ function greet(){
     console.log("Ajit")
 };
 
-greet()
-console.log(c)
+greet();
+console.log(a)
 
 
 
