@@ -108,8 +108,8 @@
 //     console.log("Hello Ajit")
 // }
 
-i =20
-for (let i=0;i<=20;i++){
+// i =20
+// for (let i=0;i<=20;i++){
 
-    console.log(i)
-}
+//     console.log(i)
+// }
