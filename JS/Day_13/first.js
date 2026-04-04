@@ -66,5 +66,6 @@ const obj ={
     city: "fbd"
 }
 const key =Object.keys(obj);
+['name','age','amount', 'city']
 
 
