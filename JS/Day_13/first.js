@@ -7,10 +7,10 @@ var b = 20;
 const c = 30;
 
 function greet(){
-console.log(a);
-console.log(b);
-console.log(c);
-}
+    console.log(a);
+    console.log(b);
+    console.log(c);
+};
 
 
 
