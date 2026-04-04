@@ -34,14 +34,14 @@
 
 // console.log(b);
 
-let amount = 20;
-const b =30;
-var c =50;
+// let amount = 20;
+// const b =30;
+// var c =50;
 
-if(true){
-    let amount =30;
+// if(true){
+//     let amount =30;
     
-    console.log(amount);
-}
+//     console.log(amount);
+// }
 
 
