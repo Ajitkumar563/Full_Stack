@@ -26,4 +26,11 @@
 // greet();
 // console.log(a)
 
+if(true){
+    let a = 10;
+    var b = 20;
+    const c = 30;
+}
+
+console.log(b);
 
