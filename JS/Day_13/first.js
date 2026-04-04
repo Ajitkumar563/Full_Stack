@@ -65,11 +65,12 @@ const obj ={
     amount: 433,
     city: "fbd"
 }
-const key =Object.keys(obj);
-['name','age','amount', 'city']
-for(let i=0;i<key.length; i++)
-{
-    console.log(obj[key[i]]);
-}    
+// const key =Object.keys(obj);
+// ['name','age','amount', 'city']
+// for(let i=0;i<key.length; i++)
+// {
+//     console.log(obj[key[i]]);
+// }    
+
 
 
