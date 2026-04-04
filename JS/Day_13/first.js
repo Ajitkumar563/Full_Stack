@@ -52,4 +52,12 @@
 //     i++;
 // }    
 
+// do-while loop
+
+let arr = [10,30,42,50];
+for(let i=0; i<arr.length;i++)
+{
+    console.log(arr[i]);
+}    
+
 
