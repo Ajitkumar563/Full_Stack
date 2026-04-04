@@ -12,5 +12,7 @@ function greet(){
     console.log(c);
 };
 
+greet()
+
 
 
