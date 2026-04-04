@@ -59,5 +59,11 @@ for(let i=0; i<arr.length;i++)
 {
     console.log(arr[i]);
 }    
-
+const obj ={
+    name:"Ajit",
+    age: 30,
+    amount: 433,
+    city: "fbd"
+}
+Object.values
 
