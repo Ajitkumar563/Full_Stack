@@ -1,0 +1,2 @@
+// scope ke baare main
+
