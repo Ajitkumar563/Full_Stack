@@ -65,5 +65,6 @@ const obj ={
     amount: 433,
     city: "fbd"
 }
-Object.values
+const key =Object.keys(obj);
+
 
