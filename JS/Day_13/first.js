@@ -14,6 +14,7 @@ function greet(){
 };
 
 greet()
+console.log(c)
 
 
 
