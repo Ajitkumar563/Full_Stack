@@ -35,8 +35,10 @@
 // console.log(b);
 
 let amount = 20;
+
 if(true){
-    let amount =30;
+    
     console.log(amount);
 }
+let amount =30;
 
