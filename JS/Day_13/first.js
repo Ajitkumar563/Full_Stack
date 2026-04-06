@@ -72,5 +72,5 @@ const obj ={
 //     console.log(obj[key[i]]);
 // }    
 
-
+// shortcut for in loop..
 
