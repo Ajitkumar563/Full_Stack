@@ -12,3 +12,8 @@ for(let key in obj)
     console.log(key, obj[key]);
 
 }    
+
+Object.keys(obj)
+console.log(Object.keys(obj));
+
+let obj2 = Object.create(obj);
