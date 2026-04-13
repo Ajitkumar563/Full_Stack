@@ -7,13 +7,13 @@ let obj ={
 
 // for in loop , i can iterate over keys in an object
 
-for(let key in obj)
-{
-    console.log(key, obj[key]);
+// for(let key in obj)
+// {
+//     console.log(key, obj[key]);
 
-}    
+// }    
 
-Object.keys(obj)
-console.log(Object.keys(obj));
+// Object.keys(obj)
+// console.log(Object.keys(obj));
 
-let obj2 = Object.create(obj);
+// let obj2 = Object.create(obj);
