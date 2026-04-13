@@ -3,4 +3,4 @@ let obj ={
     age: 30,
     amount: 433,
     city: "fbd"
-}
+};
