@@ -10,6 +10,8 @@
 const arr = [10,20,30,40,50];
 arr.name = "ajit";
 arr.age = 20;
+for(let index=0; index<arr.length;index++)
+    console.log(index, arr[index]);
 for(let key in arr){
     console.log(key);
 }
