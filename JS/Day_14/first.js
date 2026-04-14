@@ -8,3 +8,11 @@
 
 // obj.name = "mohit"
 // //configurable = false
+
+let obj = {};
+
+Object.defineProperty(obj, 'name',{
+    value : "Ajit",
+    writable:true,
+    enumerable: true,
+})
