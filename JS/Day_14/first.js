@@ -40,6 +40,22 @@
 // obj1.account_number =2001;
 // console.log(obj1.account_number);
 
+// const customer ={
+//     name: "Ajit",
+//     age:23,
+//     account_number:123,
+//     balance:2000,
+// };
+
+// // name, aacount_number, changenahi hone chahiye
+// Object.defineProperty(customer,"name", "account_number",{
+//     writable:false,
+// })
+// customer.name = "mohit";
+// customer.account_number = 10001;
+
+// console.log(customer);
+
 const customer ={
     name: "Ajit",
     age:23,
@@ -47,11 +63,9 @@ const customer ={
     balance:2000,
 };
 
-// name, aacount_number, changenahi hone chahiye
-Object.defineProperty(customer,'name','account_number',{
-    writable:false,
+Object.defineProperty(customer, "name", {
+    enumerable:false,
 })
-customer.name = "mohit";
-customer.account_number = 10001;
 
-console.log(customer);
+for(let key in customer)
+    console.log(key);
