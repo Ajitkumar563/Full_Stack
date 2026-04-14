@@ -18,6 +18,10 @@ Object.defineProperty(obj, 'name',{
     configurable:true,
 })
 
+Object.defineProperty(obj, "name",{
+    writable:false,
+})
+
 obj.name ="mohit";
 
 console.log(obj);
