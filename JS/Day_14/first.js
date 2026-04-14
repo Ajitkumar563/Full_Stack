@@ -72,5 +72,5 @@ Object.defineProperty(customer, "name", {
 
 // enumerable: jis bhi key ka enumerable true hga, un sabka access hoga ya print hoga 
 // Inherit hoke bhi koi bhi property or key aati hai, uska bhi enumerable true hoga  
-for(let key in customer2)
+for(let key in customer)
     console.log(key);
