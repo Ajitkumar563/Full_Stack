@@ -48,7 +48,7 @@ const customer ={
 };
 
 // name, aacount_number, changenahi hone chahiye
-Object.defineProperty(customer,'name',{
+Object.defineProperty(customer,'name','account_nyumber',{
     writable:false,
 })
 customer.name = "mohit";
