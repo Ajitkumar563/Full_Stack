@@ -26,16 +26,16 @@
 
 // console.log(obj);
 
-const obj1 ={
-    name: "Ajit",
-    age:23,
-    account_number:32201
-};
+// const obj1 ={
+//     name: "Ajit",
+//     age:23,
+//     account_number:32201
+// };
 
-Object.defineProperty(obj1, 'account_number', {
-    writable:false
+// Object.defineProperty(obj1, 'account_number', {
+//     writable:false
 
-})
+// })
 
-obj1.account_number =2001;
-console.log(obj1.account_number);
+// obj1.account_number =2001;
+// console.log(obj1.account_number);
