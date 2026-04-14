@@ -62,10 +62,15 @@ const customer ={
     account_number:123,
     balance:2000,
 };
+let customer2 = Object.create(customer);
+customer2.city = "haridwar";
+customer2.place = "Delhi";
 
 Object.defineProperty(customer, "name", {
     enumerable:false,
 })
 
-for(let key in customer)
+// enumerable: jis bhi key ka enumerable true hga, un sabka access hoga ya print hoga 
+// Inherit hoke bhi koi bhi property or key aati hai, uska bhi enumerable true hoga  
+for(let key in customer2)
     console.log(key);
