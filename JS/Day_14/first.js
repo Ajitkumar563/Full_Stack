@@ -76,4 +76,12 @@ Object.defineProperty(customer, "name", {
 for(let key in customer)
     console.log(key);
 
-console.log(Object.getOwnPropertyDescriptor(Object.prototype, 'toString'));
+// console.log(Object.getOwnPropertyDescriptor(Object.prototype, 'toString',));
+
+Object.defineProperty(Object.prototype,'toString',{
+    enumerable:true,
+
+})
+
+for(let key in customer)
+    console.log(key);
