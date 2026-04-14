@@ -9,19 +9,19 @@
 // obj.name = "mohit"
 // //configurable = false
 
-let obj = {};
+// let obj = {};
 
-Object.defineProperty(obj, 'name',{
-    value : "Ajit",
-    writable:false,
-    enumerable: true,
-    configurable:true,
-})
+// Object.defineProperty(obj, 'name',{
+//     value : "Ajit",
+//     writable:false,
+//     enumerable: true,
+//     configurable:true,
+// })
 
-Object.defineProperty(obj, "name",{
-    writable:false,
-})
+// Object.defineProperty(obj, "name",{
+//     writable:false,
+// })
 
-obj.name ="mohit";
+// obj.name ="mohit";
 
-console.log(obj);
+// console.log(obj);
