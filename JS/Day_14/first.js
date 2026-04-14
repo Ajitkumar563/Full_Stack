@@ -13,7 +13,7 @@ let obj = {};
 
 Object.defineProperty(obj, 'name',{
     value : "Ajit",
-    writable:true,
+    writable:false,
     enumerable: true,
     configurable:true,
 })
