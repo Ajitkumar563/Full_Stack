@@ -18,4 +18,6 @@ Object.defineProperty(obj, 'name',{
     configurable:true,
 })
 
+obj.name ="mohit";
+
 console.log(obj);
