@@ -15,4 +15,7 @@ Object.defineProperty(obj, 'name',{
     value : "Ajit",
     writable:true,
     enumerable: true,
+    configurable:true,
 })
+
+console.log(obj);
