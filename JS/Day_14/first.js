@@ -48,6 +48,10 @@ const customer ={
 };
 
 // name, aacount_number, changenahi hone chahiye
+Object.defineProperty(customer,'name',{
+    writable:false,
+})
 customer.name = "mohit";
 customer.account_number = 10001;
+
 console.log(customer);
