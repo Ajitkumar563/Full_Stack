@@ -7,7 +7,7 @@
 name: "Ajit",
 age:20,
 
-const arr = [10,20,40,12,30];
+const arr = [10,20,30,40,50];
 arr.name = "Ajit";
 arr.age = 20;
 for(let key in arr){
