@@ -56,6 +56,7 @@
 
 // console.log(customer);
 
+// Object.protoype
 const customer ={
     name: "Ajit",
     age:23,
@@ -74,3 +75,5 @@ Object.defineProperty(customer, "name", {
 // Inherit hoke bhi koi bhi property or key aati hai, uska bhi enumerable true hoga  
 for(let key in customer)
     console.log(key);
+
+console.log(Object.getOwnPropertyDescriptor(Object.prototype, 'toString'));
