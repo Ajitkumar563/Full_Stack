@@ -26,3 +26,14 @@
 // {
 //     console.log(value)
 // }
+
+// don't use for of loop in object
+const  obj = {
+    name : "chand",
+    age: 23,
+    gender: "female"
+};
+
+for(let value of obj){
+    console.log(value);
+}
