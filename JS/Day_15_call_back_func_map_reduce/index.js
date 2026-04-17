@@ -12,3 +12,11 @@
 // // hacking se bachne ke liye humne ye sb kiya hai 
 
 // console.log(Object.getOwnPropertyDescriptor(user, "name"))
+
+// for of loop
+
+const arr =[10,20,11,18,13];
+for(let value of arr)
+{
+    console.log(value);
+}
