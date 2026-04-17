@@ -7,3 +7,5 @@ console.log(Object.getOwnPropertyDescriptor(user,"name"))
 Object.defineProperty(user,'name',{
     writable:false,
 });
+
+console.log(Object.getOwnPropertyDescriptor(user, "name"))
