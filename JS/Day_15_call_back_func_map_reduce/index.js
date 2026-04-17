@@ -20,3 +20,9 @@ for(let value of arr)
 {
     console.log(value);
 }
+
+let str = "Ajit is good boy";
+for(let value of str)
+{
+    console.log(value)
+}
