@@ -8,4 +8,7 @@ Object.defineProperty(user,'name',{
     writable:false,
 });
 
+user.name = "ram";
+// hacking se bachne ke liye humne ye sb kiya hai 
+
 console.log(Object.getOwnPropertyDescriptor(user, "name"))
