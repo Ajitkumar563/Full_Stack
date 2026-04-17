@@ -34,6 +34,7 @@ const  obj = {
     gender: "female"
 };
 
-for(let value of obj){
-    console.log(value);
-}
+console.log(obj)
+// for(let value of obj){
+//     console.log(value);
+// }
