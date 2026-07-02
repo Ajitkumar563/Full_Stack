@@ -74,6 +74,6 @@ console.log(arr2d[0][2]);
 // flat ka use to convert into 1d array
 let newarr = arr2d.flat(Infinity);
 console.log(typeof newarr);
-console.log(Array.isArray (newarr));
+console.log(Array.isArray (newarr)); // new array ..
 
 
