@@ -3,9 +3,9 @@
 const arr = [10,20,30,40,50]
 
 // const result = arr.reduce(callback function, initialization)
-const result = arr.reduce((acc,curr)=>{
-    acc =acc+curr;
-    return acc;
-},0)
+// const result = arr.reduce((acc,curr)=>{
+//     acc =acc+curr;
+//     return acc;
+// },0)
 
-console.log(result);
+// console.log(result);
