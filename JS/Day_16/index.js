@@ -13,6 +13,13 @@
 let arr = ["arange","apple","banana", "orange", "apple", "banana", "orange", "grape"]
 
 // final result ek object ke form
-const result =arr.reduce((accepts,curr)=>{
+//orange:3
+// apple:2
+// acc ={}
+const result =arr.reduce((acc,curr)=>{
+    if(acc.hasOwnProperty(curr))
+        acc[curr]++;
+    else
+        acc[curr]=1;
 
 }{})
