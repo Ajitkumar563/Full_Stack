@@ -28,5 +28,5 @@
 // let set1 =new Set([10,20,30,40,50]);
 
 let arr = [10,30,20,10,40,50,30];
-const set = new Set(arr);
+// const set = new Set(arr);
 console.log(arr);
