@@ -22,4 +22,4 @@ const result =arr.reduce((acc,curr)=>{
     else
         acc[curr]=1;
 
-}{})
+},{})
